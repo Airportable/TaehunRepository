@@ -12,13 +12,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/button1"
-    android:text="인천공항 웹"
+    android:text="@string/strBtn1"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:text="나가기"
+        android:text="@string/strBtn2"
         />
     <LinearLayout
         android:layout_width="match_parent"

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Practice</string>
+    <string name="strBtn1">인천공항 웹</string>
+    <string name="strBtn2">나가기</string>
 </resources>
