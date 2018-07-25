@@ -31,6 +31,11 @@ public class MainActivity extends NMapActivity {
 
         mapLayout = findViewById(R.id.map);
         mapLayout.addView(mMapView);
+
+        mMapView.setBuiltInZoomControls(true, null);
+
+        //mMapView.setBuiltInAppControl(true); //기본 버튼만들어지고 네이버지도앱 생성함
+        //mMapView.executeNaverMap(); //커스텀 버튼만들고 네이버지도앱 생성함
     }
 
     @Override
